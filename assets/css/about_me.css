@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.wrapper {
+  position: relative;
+}
+/* Sidebar */
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 100px;
+  padding-top: 5%;
+}
+
+.sidebar h2,
+h4 {
+  line-height: 35px;
+}
+
+.sidebar h2 {
+  padding-top: 5%;
+}
+
+.sidebar h4 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar ul {
+  /* background-color: rgb(107, 111, 122); */
+  padding-top: 15%;
+}
+
+.sidebar ul li {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul li {
+  padding: 15px 0px 15px 0px;
+}
+
+.sidebar ul li a {
+  color: black;
+  font-weight: 600;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.sidebar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-right: 3px solid hsl(19, 83%, 45%);
+  ;
+}
+
+.sidebar .social-media {
+  padding-top: 7%;
+}
+
+.sidebar .social-media i {
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+  border-radius: 10%;
+  margin-left: 2%;
+}
+
+.social-media i:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+/* home */
+
+
+.wrapper .home {
+  position: relative;
+  width: 78%;
+  height: 110vh;
+  margin-left: 20%;
+}
+
+.home .shadow {
+  width: 1%;
+  height: 134vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+}
+
+.home .home-items {
+  padding-left: 6px;
+  padding-top: 2%;
+}
+
+.home .home-items i {
+  background-color: hsl(24, 100%, 50%);
+  position: absolute;
+  font-size: x-large;
+  font-weight: 600;
+  color: seashell;
+  width: 250px;
+  height: 50px;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 30px;
+  border-top-left-radius: 20px;
+}
+
+.home-items i:before {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  background-color: hsl(24, 100%, 30%);
+  left: 0px;
+  top: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 2;
+}
+
+.home-items i::after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  background-color: hsl(24, 100%, 50%);
+  left: 0px;
+  top: 100%;
+}
+
+.home-items span {
+  position: absolute;
+  margin: 27%;
+  margin-top: 4%;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+
+.home-items .intoduct {
+  position: absolute;
+  padding-top: 10%;
+  width: 100%;
+  height: 300px;
+  background-color: rosybrown;
+}
+
+.wrapper .home .intoduct {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 97%;
+  height: 45%;
+ 
+}
+
+.intoduct .item1 {
+  position: absolute;
+
+  width: 40%;
+  height: 100%;
+  padding-left: 5%;
+}
+
+.intoduct .item1 p {
+
+  padding-right: 20%;
+  margin-top: 2%;
+}
+
+
+.intoduct .item2 {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  margin-left: 40%;
+}
+
+
+
+.intoduct .item2 h2{
+  margin-bottom: 5%;
+}
+
+#circle img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+
+  left: 13%;
+  top: 65%;
+
+  border: 3px solid #202020;
+}
+
+#square {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.03);
+
+  width: 60%;
+  height: 50%;
+  margin-left: 20%;
+  border: 3px solid #202020;
+}
+
+ #name{
+  position: absolute;
+  left: 29%;
+  top: 85%;
+  width: 100px;
+  height: 100px;
+
+}
+
+#btn{
+  position: absolute;
+  left: 75%;
+  top: 95%;
+
+  width: 100px;
+  height: 100px;
+}
+
+
+/*home*/
+
+.home  .service>h2{
+  position: absolute;
+}
+
+.home .service {
+
+  position: relative;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  display: flex;
+  width:97%;
+  height: auto;
+
+}
+
+
+.home .service>div {
+
+
+  margin: 4% 1% 0 0;
+  height: auto;
+  width: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.home .service img{
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+
+.home .service h3{
+  margin-bottom: 10%;
+}
+
+
+
+/*client*/
+
+.home  .client>h2{
+  position: absolute;
+  
+}
+
+.home .client {
+
+  margin-top: 4%;
+  position: relative;
+  margin-left: 3%;
+  display: flex;
+  width: 97%;
+  height: auto;
+  margin-bottom: 4%;
+  
+
+}
+
+.home .client>div {
+
+  margin: 5% 1% 0 0;
+  height: 150px;
+  width: 16.5%;
+ 
+}
+
+.home .client img{
+  margin-top: 2%;
+  width: 80%;
+}
+
+
+
+
+/*funfact*/
+
+.home  .funfact>h2{
+  position: absolute;
+  
+}
+
+
+/* change hight auto*/
+.home .funfact {
+  
+  margin-top: 15px;
+  position: relative;
+  margin-left: 3%;
+  margin-top: 3%;
+  display: flex;
+  width: 97%;
+  height:300px; 
+ 
+
+}
+
+.home .funfact>div {
+  margin: 6% 8% 0 3%;
+  height: 190px;
+  width: 25%;
+  border: 3px solid black;
+  
+}
+
+.home .funfact img{
+
+  margin-top: 20%;
+  margin-bottom: 10%;
+  width:40%;
+
+}
+
+.home .funfact h2{
+  color: rgb(255, 230, 0);
+}
+
+.home .funfact h3{
+  font-family: Oswald;
+}
+
+.home .funfact #gray{
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+
+#title{
+  color: black;
+  text-decoration: underline rgb(238, 234, 8);
+  font-family: Oswald;
+}
+
