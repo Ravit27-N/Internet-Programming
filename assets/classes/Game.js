@@ -41,14 +41,26 @@ class Game {
     cloud.move();
 
 
+    
+
     window.addEventListener("keydown", (e) => {
         //    console.log(e);
         if (e.key == "ArrowUp"){
           dinosaur.jump();
         }
     });
+    let count = 0;
+    setInterval(() => {
+
+      this.ctx.font = "15px Arial";
+      this.ctx.strokeText("Score :"+count,190,50);
+      count++;
+
+    }, 50);
 
     setInterval(() => {
+
+
         let birdx = bird.getPositionX();
         let dinox = dinosaur.getPositionX();
 
@@ -56,7 +68,7 @@ class Game {
         let dinoy = dinosaur.getPositionY();
         
         this.stop(dinox,birdx,dinoy,birdy);
-    }, 500);
+    }, 250);
   }
 
   

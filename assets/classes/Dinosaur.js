@@ -12,8 +12,11 @@ class Dinosaur {
     this.positionX = 60;
     this.positionY = 200;
     
+    
     this.appearance = new Image();
     this.appearance.src = "assets/images/giphy.gif";
+
+  
 
     // this.appearance.onload = (() => {
     //   this.gameContext.ctx.drawImage(this.appearance, 0, 0, this.appearance.width, this.appearance.height, this.positionX, this.positionY, 75, 75);
