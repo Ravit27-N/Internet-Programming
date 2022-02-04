@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      text-align: center;
+      width: 100%;
+      margin-top: 150px;
+    }
+    .container .loading img{
+      width: 150px;
+    }
+    .container .loading  p{
+      font-size: 2rem;
+    }
+
+    .container .warning img{
+      width: 200px;
+    }
+    .container .warning  p{
+      font-size: 1.5rem;
+    }
+
+
+    .container table{
+      width: 100%;
+      border-collapse: collapse;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 70px;
+    }
+    th{
+      background-color: aqua;
+    }
+    td, th {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+    .title{
+      font-size: 2em;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+  </style>
+
+
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="loading" style="display: none;">
+      <img src="./js/image/loading.gif" >
+      <p>loading users...</p>
+    </div>
+
+    <div class="warning" style="display: none;">
+      <img src="./js/image/warning.png"  >
+      <p>Sometime went wrong!! Can't load data<br> please check your internet connection.</p>
+    </div>
+
+    <div class="success" style="display: none;">
+        <p class="title">User List</p>
+
+        <table>
+          <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Title</th>
+          </tr>
+        </table>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/Exercise5.js"></script>
+
+</body>
+</html>
